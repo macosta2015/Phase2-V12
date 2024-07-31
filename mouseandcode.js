@@ -110,19 +110,6 @@ const waitForEnter = require('./components/waitForEnter.js');
         ////////////////////////////////////////////////////////////////////////////
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         ////////////////////////////////////////////////////////////////////////////
         console.log("QQQQQQQQQQQ");
         await waitForEnter();
@@ -178,37 +165,6 @@ const waitForEnter = require('./components/waitForEnter.js');
         console.log("After searchAndClickTransform");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         //Working on (5) Extrude 3 PLAY(2.00)
         ////////////////////////////////////////////////////////////////////////////
         const selector9 = 'div[data-id="zUc3/N14UtKVlcJg"]'; // Replace with the appropriate selector
@@ -247,6 +203,51 @@ const waitForEnter = require('./components/waitForEnter.js');
         console.log("YYYYYYYYYYY");
         await waitForEnter();
         console.log("ZZZZZZZZZZZ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ////////////////////////////////////////////////////////////////////////////
+        // WORKING ON NEW CODE
+
+
+
+
+
+
+
+
+
+
+        ////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         //Working on Extrude 1
