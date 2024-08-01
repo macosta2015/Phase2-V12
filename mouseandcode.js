@@ -216,8 +216,8 @@ const waitForEnter = require('./components/waitForEnter.js');
         // const selector1 = 'div[data-id="Dg4JdGx6jlZTm4XD"]'; // Replace with the appropriate selector
         // const title1 = '(1) Initial Sketch'; // Replace with the desired title
         console.log('Right-clicking on the specified element.');
-        // const editOptions1 = await performRightClickOptionByTitle(newPage, selector1, title1);
-        console.log(editOptions1);
+        const editOptions2 = await performRightClickOptionByTitle(newPage, selector1, title1);
+        console.log(editOptions2);
         console.log("CCCCCCCCCC");
         await waitForEnter();
         console.log("DDDDDDDDDD");
@@ -225,7 +225,7 @@ const waitForEnter = require('./components/waitForEnter.js');
         // editIntoSketchFunction(editOptions1, newPage);
         // Use the retrieved options for further actions (e.g., copySketchFunction)
         console.log('copySketchFunction')
-        copySketchFunction(editOptions1, newPage);
+        copySketchFunction(editOptions2, newPage);
         // Select sketch to click or unclick, good code to select and unselect
         console.log("CCCCCCCCCC");
         await waitForEnter();
@@ -246,19 +246,16 @@ const waitForEnter = require('./components/waitForEnter.js');
         ////////////////////////////////////////////////////////////////////////////
 
 
-
-
-
-        ///////WORKING, NEED TO CHANGE THE (3) Extrude Sketch(1.03)
-        // const desiredIndex7 = 7;
+        // ///////WORKING, NEED TO CHANGE THE (3) Extrude Sketch(1.03)
+        // // const desiredIndex7 = 7;
         // await clickButtonByIndex(newPage, desiredIndex7);
         console.log("Before searchAndClickTransform");
         await waitForEnter();
-        console.log("Before editIntoSketchFunction");
-        //editIntoSketchFunction(editOptions8, newPage);
-        const title21 = '(3) Extrude Sketch(1.03)'; // Replace with the desired title
-        const editOptions21 = await performRightClickOptionByTitle(newPage, selector7, title21);
-        editIntoSketchFunction(editOptions21, newPage);
+        // console.log("Before editIntoSketchFunction");
+        // //editIntoSketchFunction(editOptions8, newPage);
+        // const title23 = '(3) Extrude Sketch(1.03)'; // Replace with the desired title
+        const editOptions23 = await performRightClickOptionByTitle(newPage, selector10, title22);
+        editIntoSketchFunction(editOptions23, newPage);
         ////////////////////////////////////////////////////////////////////////////
         console.log("After editIntoSketchFunction");
         await waitForEnter();
